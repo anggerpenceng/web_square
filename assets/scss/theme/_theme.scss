@@ -18,3 +18,30 @@ html, body{
     height: 100%;
     font-family: $cambria, 'sans-serif';
 }
+
+.navigation {
+    height: auto;
+    width: auto;
+    color: $black;
+    background-color: $white;
+    font-family: $cambria, 'sans-serif';
+    font-size: 14px;
+    margin: 10px 40px;
+    display: flex;
+}
+
+.navigation-left{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navigation > .navigation-left > .items {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navigation > .icon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}

@@ -18,4 +18,31 @@ html, body {
   font-family: "Cambria", "sans-serif";
 }
 
+.navigation {
+  height: auto;
+  width: auto;
+  color: #232528;
+  background-color: #FFFFFF;
+  font-family: "Cambria", "sans-serif";
+  font-size: 14px;
+  margin: 10px 40px;
+  display: flex;
+}
+
+.navigation-left {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navigation > .navigation-left > .items {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navigation > .icon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
 /*# sourceMappingURL=main.css.map */
