@@ -3,14 +3,19 @@ $cambria        : "Cambria";
 
 // colors
 
-$blue-darken    : #0D446F;
+$blue-darken    : #0d446f;
 $white          : #FFFFFF;
+$white-a        : rgba(241, 246, 250, 0.925);
 $black          : #232528;
+$light-grey     : #D1D1D1;
+$light-grey-a   : rgba(209, 209, 209, 0.849);
+$black-opacity  : rgba(35, 37, 40, 0.87);
+$light-blue     : #9AB4CE;
 
 // responsive
 
 $mobile         : 480px;
-$tablet         : 736px;
-$netbook        : 980px;
-$notebook       : 1280px;
-$large          : 1690px;
+$tablet         : 768px;
+$netbook        : 1024px;
+$notebook       : 1440px;
+$large          : 1920px;

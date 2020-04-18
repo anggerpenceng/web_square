@@ -23,11 +23,14 @@ html, body{
     position: fixed;
     background-color: $white;
     z-index: 2;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
 }
 
 .navigation {
     height: auto;
-    width: $notebook;
+    width: auto;
     color: $black;
     background-color: $white;
     font-family: $cambria, 'sans-serif';
@@ -40,6 +43,7 @@ html, body{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 40px;
+    margin-right: 60px;
 }
 
 .navigation-right{
@@ -58,6 +62,9 @@ html, body{
     margin-left: auto;
     margin-right: auto;
     width: 70px;
+    @media screen and (max-width: $large){
+        
+    }
 }
 
 .header-img{
@@ -65,11 +72,125 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: auto;
 }
 
 .header-title{
-    background-color: $black;
-    opacity: 0.9;
-    height: 400px;
+    background-color: $black-opacity;
+    height: auto;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.title{
+    margin-right: auto;
+    margin-left: auto;
+    color: $white;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    @media screen and (max-width: $notebook){
+        font-size: 40px;
+    }
+}
+
+.sub-title-bg{
+    margin-right: auto;
+    margin-left: auto;
+    color: $white;
+    background-color: $blue-darken;
+    text-align: center;
+    width: auto;
+    font-size: 25px;
+    padding: 10px 30px;
+}
+
+.sub-title{
+    margin-right: auto;
+    margin-left: auto;
+    color: $white;
+    text-align: center;
+    width: 1202px;
+    font-size: 25px;
+    padding: 10px 30px;
+    line-height: 50px;
+    @media screen and (max-width: $notebook){
+        width: 960px;
+    }
+}
+
+.border-section{
+    border: 1px solid;
+    border-color: $light-grey;
+    margin: 20px;
+}
+
+.about-title{
+    font-size: 30px;
+    font-weight: bold;
+    @media screen and (max-width: $notebook){
+        font-size: 25px;
+    }
+}
+
+.about-content{
+    line-height: 50px;
+    @media screen and (max-width: $notebook){
+        font-size: 15px;
+    }
+}
+
+.about-left{
+    margin: 25% auto;
+}
+
+.about-img{
+    margin: 10% auto;
+    img {
+        width: 240px;
+        height: 240px;
+    }
+}
+
+.service-message{
+    background-image: url("../../img/message_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .bg-blur{
+        background-color: $white-a;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    img{
+        width: 130px;
+        margin: 30px auto;
+    }
+}
+
+.service-config{
+    background-image: url("../../img/config_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .bg-blur{
+        background-color: $white-a;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+    img{
+        width: 130px;
+        margin: 30px auto;
+    }
+}
+
+.service-button{
+    width: 275px;
+    border: 1px solid;
+    border-color: $blue-darken;
+    color: $blue-darken;
+    @media screen and (max-width: $notebook){
+        width: 200px;
+    }
 }
