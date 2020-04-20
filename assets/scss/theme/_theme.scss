@@ -21,7 +21,7 @@ html, body{
 
 .navigation-fixed{
     position: fixed;
-    background-color: $white;
+    background-color: transparent;
     z-index: 2;
     top: 0;
     overflow: hidden;
@@ -31,8 +31,6 @@ html, body{
 .navigation {
     height: auto;
     width: auto;
-    color: $black;
-    background-color: $white;
     font-family: $cambria, 'sans-serif';
     font-size: 14px;
     margin: 10px 40px;
@@ -55,7 +53,7 @@ html, body{
 .navigation-items {
     margin-left: 20px;
     margin-right: 20px;
-    color: $black;
+    color: $white;
 }
 
 .navigation > .icon {
@@ -193,4 +191,16 @@ html, body{
     @media screen and (max-width: $notebook){
         width: 200px;
     }
+}
+
+.spacers{
+    height: 50px;
+}
+
+.nav-scroll{
+    background-color: $white;
+}
+
+.nav-item-scroll{
+    color: $black;
 }

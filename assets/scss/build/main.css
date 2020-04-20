@@ -20,7 +20,7 @@ html, body {
 
 .navigation-fixed {
   position: fixed;
-  background-color: #FFFFFF;
+  background-color: transparent;
   z-index: 2;
   top: 0;
   overflow: hidden;
@@ -30,8 +30,6 @@ html, body {
 .navigation {
   height: auto;
   width: auto;
-  color: #232528;
-  background-color: #FFFFFF;
   font-family: "Cambria", "sans-serif";
   font-size: 14px;
   margin: 10px 40px;
@@ -54,7 +52,7 @@ html, body {
 .navigation-items {
   margin-left: 20px;
   margin-right: 20px;
-  color: #232528;
+  color: #FFFFFF;
 }
 
 .navigation > .icon {
@@ -200,6 +198,18 @@ html, body {
   }
 }
 
+.spacers {
+  height: 50px;
+}
+
+.nav-scroll {
+  background-color: #FFFFFF;
+}
+
+.nav-item-scroll {
+  color: #232528;
+}
+
 h1 {
   font-style: normal;
   font-weight: bold;
@@ -251,6 +261,40 @@ p {
 span {
   font-size: 11px;
   line-height: 18px;
+}
+
+.about-page-title {
+  color: #FFFFFF;
+  background-color: #0d446f;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40%;
+  font-size: 35px;
+}
+.about-page-title h3 {
+  margin: 0;
+}
+
+.about-sub-title {
+  font-size: 25px;
+  color: #0d446f;
+  font-weight: bold;
+}
+@media screen and (max-width: 1440px) {
+  .about-sub-title {
+    font-size: 20px;
+  }
+}
+
+.about-sub-content {
+  font-size: 20px;
+  line-height: 30px;
+}
+@media screen and (max-width: 1440px) {
+  .about-sub-content {
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

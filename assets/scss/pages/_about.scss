@@ -1,0 +1,29 @@
+.about-page-title{
+    color: $white;
+    background-color: $blue-darken;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 40%;
+    font-size: 35px;
+    h3{
+        margin: 0;
+    }
+}
+
+.about-sub-title{
+    font-size: 25px;
+    color: $blue-darken;
+    font-weight: bold;
+    @media screen and (max-width: $notebook){
+        font-size: 20px;
+    }
+}
+
+.about-sub-content{
+    font-size: 20px;
+    line-height: 30px;
+    @media screen and (max-width: $notebook){
+        font-size: 15px;
+    }
+}
