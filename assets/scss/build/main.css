@@ -3,14 +3,21 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./assets/fonts/cambria.ttf") format("truetype");
+  src: url("../../fonts/cambria.ttf") format("truetype");
 }
 @font-face {
   font-family: "Cambria";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("./assets/fonts/cambriab.ttf") format("truetype");
+  src: url("../../fonts/cambriab.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cambria";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/cambriai.ttf") format("truetype");
 }
 html, body {
   min-height: 100%;
@@ -25,6 +32,7 @@ html, body {
   top: 0;
   overflow: hidden;
   width: 100%;
+  transition: all 0.4s;
 }
 
 .navigation {
@@ -40,7 +48,7 @@ html, body {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 40px;
-  margin-right: 60px;
+  margin-right: 65px;
 }
 
 .navigation-right {
@@ -71,7 +79,7 @@ html, body {
 .header-title {
   background-color: rgba(35, 37, 40, 0.87);
   height: auto;
-  padding-top: 20%;
+  padding-top: 17%;
   padding-bottom: 20%;
 }
 
@@ -295,6 +303,148 @@ span {
   .about-sub-content {
     font-size: 15px;
   }
+}
+
+.page-title {
+  padding-top: 14%;
+}
+
+.navigation-items-invers {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #232528;
+}
+
+.wide-space {
+  height: 180px;
+}
+
+.navigation-fixed-invers {
+  position: fixed;
+  background-color: #FFFFFF;
+  z-index: 2;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.services-body {
+  background-color: #F1F6FA;
+}
+
+.services-title {
+  font-size: 60px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1440px) {
+  .services-title {
+    font-size: 45px;
+  }
+}
+
+.service-active {
+  font-size: 17px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #232528;
+}
+
+.service-inactive {
+  font-size: 17px;
+  color: #232528;
+}
+
+.service-ico {
+  padding-top: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.liner {
+  border: 0.5px solid;
+  border-color: #C2C2C2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.service-sub-title {
+  font-size: 25px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1440px) {
+  .service-sub-title {
+    font-size: 20px;
+  }
+}
+
+.service-sub-content {
+  font-size: 20px;
+  line-height: 30px;
+}
+@media screen and (max-width: 1440px) {
+  .service-sub-content {
+    font-size: 15px;
+  }
+}
+
+.service-list {
+  padding-left: 30px;
+}
+
+.service-ul {
+  list-style-image: url(../../img/small-prisma.svg);
+}
+.service-ul li {
+  padding-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+@media screen and (max-width: 1440px) {
+  .service-ul li {
+    font-size: 15px;
+  }
+}
+
+.m-spacer {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.testimonial-page {
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-sub-title {
+  font-size: 20px;
+  font-style: italic;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+@media screen and (max-width: 1440px) {
+  .testimonial-sub-title {
+    font-size: 17px;
+  }
+}
+
+.testimonial-simple-text {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1440px) {
+  .testimonial-simple-text {
+    font-size: 17px;
+  }
+}
+
+.testimonial-padding {
+  padding-top: 15%;
+  padding-bottom: 10%;
 }
 
 /*# sourceMappingURL=main.css.map */
