@@ -1,0 +1,58 @@
+.amadeus{
+    width: 170px;
+}
+
+.amadeus-txt{
+    font-size: 25px;
+    font-weight: bolder;
+    @media screen and (max-width: $notebook){
+        font-size: 18px;
+    }
+}
+
+.partner-text{
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    @media screen and (max-width: $notebook){
+        font-size: 21px;
+    }
+}
+
+.partner-label{
+    font-size: 25px;
+    color: $blue-darken;
+    font-weight: bolder;
+    @media screen and (max-width: $notebook){
+        font-size: 21px;
+    }
+}
+
+.partner-label-m{
+    margin-top: 30px;
+}
+
+.advis-m{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.advis-mt{
+    margin-top: 50px;
+}
+
+.advis-ul{
+    list-style: decimal;
+    li{
+        padding-left: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+        @media screen and (max-width: $notebook){
+            font-size: 15px;
+        }
+    }
+}
+.advis-img{
+    width: 70%;
+}

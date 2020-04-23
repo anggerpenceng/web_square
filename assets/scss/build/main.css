@@ -356,7 +356,6 @@ span {
 }
 
 .service-ico {
-  padding-top: 13px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -391,7 +390,7 @@ span {
 }
 
 .service-list {
-  padding-left: 30px;
+  padding-left: 25px;
 }
 
 .service-ul {
@@ -445,6 +444,152 @@ span {
 .testimonial-padding {
   padding-top: 15%;
   padding-bottom: 10%;
+}
+
+.amadeus {
+  width: 170px;
+}
+
+.amadeus-txt {
+  font-size: 25px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1440px) {
+  .amadeus-txt {
+    font-size: 18px;
+  }
+}
+
+.partner-text {
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+@media screen and (max-width: 1440px) {
+  .partner-text {
+    font-size: 21px;
+  }
+}
+
+.partner-label {
+  font-size: 25px;
+  color: #0d446f;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1440px) {
+  .partner-label {
+    font-size: 21px;
+  }
+}
+
+.partner-label-m {
+  margin-top: 30px;
+}
+
+.advis-m {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.advis-mt {
+  margin-top: 50px;
+}
+
+.advis-ul {
+  list-style: decimal;
+}
+.advis-ul li {
+  padding-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+@media screen and (max-width: 1440px) {
+  .advis-ul li {
+    font-size: 15px;
+  }
+}
+
+.advis-img {
+  width: 70%;
+}
+
+.contact-maps {
+  width: 70%;
+}
+
+.contact-header-img {
+  background-image: url("../../img/contact-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+.contact-ico {
+  width: 50px;
+}
+@media screen and (max-width: 1440px) {
+  .contact-ico {
+    width: 40px;
+  }
+}
+
+.contact-space {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact-space h3 {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1440px) {
+  .contact-space h3 {
+    font-size: 20px;
+  }
+}
+.contact-space p {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+@media screen and (max-width: 1440px) {
+  .contact-space p {
+    font-size: 15px;
+  }
+}
+
+.contact-liner {
+  border-top: 1px solid;
+  border-color: #7E7E7E;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1440px) {
+  .contact-liner {
+    width: 30%;
+  }
+}
+
+.contact-form {
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contact-form .form-items {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contact-form .button-submit {
+  color: #FFFFFF;
+  border-radius: 0;
+  background-color: #0d446f;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

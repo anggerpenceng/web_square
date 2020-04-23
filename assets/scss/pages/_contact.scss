@@ -1,0 +1,69 @@
+.contact-maps{
+    width: 70%;
+}
+
+.contact-header-img{
+    background-image: url("../../img/contact-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.contact-ico{
+    width: 50px;
+    @media screen and (max-width: $notebook){
+        width: 40px;
+    }
+}
+
+.contact-space{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h3{
+        color: $white;
+        font-size: 25px;
+        font-weight: bolder;
+        @media screen and (max-width: $notebook){
+            font-size: 20px;
+        }
+    }
+    p{
+        color: $white;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+        @media screen and (max-width: $notebook){
+            font-size: 15px;
+        }
+    }
+}
+
+.contact-liner{
+    border-top: 1px solid;
+    border-color: $grey-darken;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: $notebook){
+        width: 30%;
+    }
+}
+
+.contact-form{
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .form-items{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .button-submit{
+        color: $white;
+        border-radius: 0;
+        background-color: $blue-darken;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+}
