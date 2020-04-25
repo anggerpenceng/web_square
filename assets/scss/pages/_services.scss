@@ -4,11 +4,14 @@
     color: $black;
 }
 .wide-space{
-    height: 180px;
+    height: 434px;
+    @media screen and (max-width: $notebook){
+        height: 200px;
+    }
 }
 .navigation-fixed-invers{
-    position: fixed;
-    background-color: $white;
+    position: absolute;
+    background-color: transparent;
     z-index: 2;
     top: 0;
     overflow: hidden;
@@ -57,6 +60,7 @@
 .service-sub-title{
     font-size: 25px;
     font-weight: bolder;
+    margin-bottom: 48px;
     @media screen and (max-width: $notebook){
         font-size: 20px;
     }
@@ -76,6 +80,7 @@
 
 .service-ul{
     list-style-image: url(../../img/small-prisma.svg);
+    margin-bottom: 77px;
     li{
         padding-left: 20px;
         margin-top: 20px;
@@ -87,6 +92,11 @@
 }
 
 .m-spacer{
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 84px;
+    margin-bottom: 39px;
+}
+
+.services-m{
+    margin-top: 65px;
+    margin-bottom: 106.5px;
 }

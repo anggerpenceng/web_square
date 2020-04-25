@@ -40,21 +40,39 @@ html, body {
   width: auto;
   font-family: "Cambria", "sans-serif";
   font-size: 14px;
-  margin: 10px 40px;
+  margin: 64px 70px;
   display: flex;
+}
+@media screen and (max-width: 1440px) {
+  .navigation {
+    font-size: 14px;
+    margin: 10px 40px;
+  }
 }
 
 .navigation-left {
-  margin-top: auto;
+  margin-top: 60px;
   margin-bottom: auto;
   margin-left: 40px;
   margin-right: 65px;
 }
+@media screen and (max-width: 1440px) {
+  .navigation-left {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
 
 .navigation-right {
-  margin-top: auto;
+  margin-top: 60px;
   margin-bottom: auto;
   margin-right: 40px;
+}
+@media screen and (max-width: 1440px) {
+  .navigation-right {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 .navigation-items {
@@ -66,8 +84,14 @@ html, body {
 .navigation > .icon {
   margin-left: auto;
   margin-right: auto;
-  width: 70px;
+  width: 192.5px;
 }
+@media screen and (max-width: 1440px) {
+  .navigation > .icon {
+    width: 70px;
+  }
+}
+
 .header-img {
   background-image: url("../../img/home_image.jpg");
   background-repeat: no-repeat;
@@ -80,20 +104,37 @@ html, body {
   background-color: rgba(35, 37, 40, 0.87);
   height: auto;
   padding-top: 17%;
-  padding-bottom: 20%;
+  padding-bottom: 395px;
+}
+@media screen and (max-width: 1440px) {
+  .header-title {
+    padding-bottom: 20%;
+  }
 }
 
 .title {
   margin-right: auto;
   margin-left: auto;
   color: #FFFFFF;
-  font-size: 56px;
   font-weight: bold;
   text-align: center;
   width: 100%;
+  margin-top: 173.5px;
+}
+.title h1 {
+  font-size: 70px;
+}
+.title h3 {
+  font-size: 60px;
 }
 @media screen and (max-width: 1440px) {
   .title {
+    margin-top: 30px;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+  .title h3 {
     font-size: 40px;
   }
 }
@@ -107,6 +148,12 @@ html, body {
   width: auto;
   font-size: 25px;
   padding: 10px 30px;
+  margin-top: 46px;
+}
+@media screen and (max-width: 1440px) {
+  .sub-title-bg {
+    margin-top: 0;
+  }
 }
 
 .sub-title {
@@ -150,16 +197,44 @@ html, body {
   }
 }
 
+.about-btn {
+  background-color: #0d446f;
+  width: 125px;
+  font-size: 15px;
+  border-radius: 0;
+  color: #FFFFFF;
+}
+
 .about-left {
-  margin: 25% auto;
+  margin: 0% auto;
+  margin-top: 354px;
+  margin-left: 215px;
+}
+@media screen and (max-width: 1440px) {
+  .about-left {
+    width: 100%;
+    margin: 20%;
+  }
 }
 
 .about-img {
-  margin: 10% auto;
+  margin: 0% auto;
+  margin-top: 354px;
+  margin-bottom: 283.5px;
 }
 .about-img img {
-  width: 240px;
-  height: 240px;
+  width: 433.5px;
+  height: 433.5px;
+}
+@media screen and (max-width: 1440px) {
+  .about-img {
+    margin-top: 104px;
+    margin-bottom: 183.5px;
+  }
+  .about-img img {
+    width: 240px;
+    height: 240px;
+  }
 }
 
 .service-message {
@@ -170,12 +245,30 @@ html, body {
 }
 .service-message .bg-blur {
   background-color: rgba(241, 246, 250, 0.925);
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 301px;
+  padding-bottom: 300px;
+}
+.service-message .bg-blur h3 {
+  margin-top: 66.8px;
+  font-size: 28px;
 }
 .service-message img {
-  width: 130px;
-  margin: 30px auto;
+  width: 185px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1440px) {
+  .service-message img {
+    width: 120px;
+  }
+  .service-message .bg-blur {
+    background-color: rgba(241, 246, 250, 0.925);
+    padding-top: 151px;
+    padding-bottom: 150px;
+  }
+  .service-message .bg-blur h3 {
+    margin-top: 66.8px;
+    font-size: 20px;
+  }
 }
 
 .service-config {
@@ -186,36 +279,72 @@ html, body {
 }
 .service-config .bg-blur {
   background-color: rgba(241, 246, 250, 0.925);
-  padding-top: 20%;
-  padding-bottom: 20%;
+  padding-top: 301px;
+  padding-bottom: 300px;
+}
+.service-config .bg-blur h3 {
+  margin-top: 66.8px;
+  font-size: 28px;
 }
 .service-config img {
-  width: 130px;
-  margin: 30px auto;
+  width: 185px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1440px) {
+  .service-config img {
+    width: 120px;
+  }
+  .service-config .bg-blur {
+    background-color: rgba(241, 246, 250, 0.925);
+    padding-top: 151px;
+    padding-bottom: 150px;
+  }
+  .service-config .bg-blur h3 {
+    margin-top: 66.8px;
+    font-size: 20px;
+  }
 }
 
 .service-button {
   width: 275px;
+  height: 50px;
   border: 1px solid;
   border-color: #0d446f;
   color: #0d446f;
+  margin-top: 32px;
+  font-size: 17px;
+  background-color: transparent;
 }
 @media screen and (max-width: 1440px) {
   .service-button {
     width: 200px;
+    font-size: 15px;
   }
 }
 
+.new-space {
+  height: 35px;
+}
+
 .spacers {
-  height: 50px;
+  margin-top: 39px;
+  margin-bottom: 45px;
 }
 
 .nav-scroll {
   background-color: #FFFFFF;
 }
+.nav-scroll .navigation {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 
 .nav-item-scroll {
   color: #232528;
+}
+
+.nav-img-scroll img {
+  width: 130px;
 }
 
 h1 {
@@ -275,9 +404,10 @@ span {
   color: #FFFFFF;
   background-color: #0d446f;
   margin: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 40%;
+  margin-top: 147px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1000px;
   font-size: 35px;
 }
 .about-page-title h3 {
@@ -316,12 +446,17 @@ span {
 }
 
 .wide-space {
-  height: 180px;
+  height: 434px;
+}
+@media screen and (max-width: 1440px) {
+  .wide-space {
+    height: 200px;
+  }
 }
 
 .navigation-fixed-invers {
-  position: fixed;
-  background-color: #FFFFFF;
+  position: absolute;
+  background-color: transparent;
   z-index: 2;
   top: 0;
   overflow: hidden;
@@ -372,6 +507,7 @@ span {
 .service-sub-title {
   font-size: 25px;
   font-weight: bolder;
+  margin-bottom: 48px;
 }
 @media screen and (max-width: 1440px) {
   .service-sub-title {
@@ -395,6 +531,7 @@ span {
 
 .service-ul {
   list-style-image: url(../../img/small-prisma.svg);
+  margin-bottom: 77px;
 }
 .service-ul li {
   padding-left: 20px;
@@ -408,8 +545,13 @@ span {
 }
 
 .m-spacer {
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 84px;
+  margin-bottom: 39px;
+}
+
+.services-m {
+  margin-top: 65px;
+  margin-bottom: 106.5px;
 }
 
 .testimonial-page {
@@ -419,6 +561,7 @@ span {
 }
 
 .testimonial-sub-title {
+  margin-top: 46px;
   font-size: 20px;
   font-style: italic;
   color: #FFFFFF;
@@ -446,13 +589,28 @@ span {
   padding-bottom: 10%;
 }
 
+.testimonial-line {
+  width: 200px;
+  height: 1px;
+  border: 0.5px solid #7E7E7E;
+  margin: 0 auto;
+  margin-top: 39px;
+  margin-bottom: 38px;
+}
+
 .amadeus {
-  width: 170px;
+  width: 260px;
+}
+@media screen and (max-width: 1440px) {
+  .amadeus {
+    width: 200px;
+  }
 }
 
 .amadeus-txt {
   font-size: 25px;
   font-weight: bolder;
+  margin-top: 38px;
 }
 @media screen and (max-width: 1440px) {
   .amadeus-txt {
@@ -493,7 +651,7 @@ span {
 }
 
 .advis-mt {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .advis-ul {
@@ -511,7 +669,24 @@ span {
 }
 
 .advis-img {
-  width: 70%;
+  width: 1546px;
+}
+@media screen and (max-width: 1440px) {
+  .advis-img {
+    width: 70%;
+  }
+}
+
+.partner-down {
+  margin-bottom: 100px;
+}
+
+.partnet-m-close {
+  margin-bottom: 10px;
+}
+
+.advis-mb {
+  margin-top: 102px;
 }
 
 .contact-maps {
@@ -519,7 +694,7 @@ span {
 }
 
 .contact-header-img {
-  background-image: url("../../img/contact-bg.png");
+  background-image: url("../../img/contact_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -575,9 +750,11 @@ span {
 }
 
 .contact-form {
-  width: 70%;
+  width: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 536px;
+  margin-right: 536px;
 }
 .contact-form .form-items {
   margin-top: 20px;
@@ -590,6 +767,12 @@ span {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+}
+@media screen and (max-width: 1440px) {
+  .contact-form {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

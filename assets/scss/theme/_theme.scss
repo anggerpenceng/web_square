@@ -42,21 +42,33 @@ html, body{
     width: auto;
     font-family: $cambria, 'sans-serif';
     font-size: 14px;
-    margin: 10px 40px;
+    margin: 64px 70px;
     display: flex;
+    @media screen and (max-width: $notebook){
+        font-size: 14px;
+        margin: 10px 40px;
+    }
 }
 
 .navigation-left{
-    margin-top: auto;
+    margin-top: 60px;
     margin-bottom: auto;
     margin-left: 40px;
     margin-right: 65px;
+    @media screen and (max-width: $notebook){
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
 
 .navigation-right{
-    margin-top: auto;
+    margin-top: 60px;
     margin-bottom: auto;
     margin-right: 40px;
+    @media screen and (max-width: $notebook){
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
 
 .navigation-items {
@@ -68,9 +80,9 @@ html, body{
 .navigation > .icon {
     margin-left: auto;
     margin-right: auto;
-    width: 70px;
-    @media screen and (max-width: $large){
-        
+    width: 192.5px;
+    @media screen and (max-width: $notebook){
+        width: 70px;
     }
 }
 
@@ -86,19 +98,34 @@ html, body{
     background-color: $black-opacity;
     height: auto;
     padding-top: 17%;
-    padding-bottom: 20%;
+    padding-bottom: 395px;
+    @media screen and (max-width: $notebook){
+        padding-bottom: 20%;
+    }
 }
 
 .title{
     margin-right: auto;
     margin-left: auto;
     color: $white;
-    font-size: 56px;
     font-weight: bold;
     text-align: center;
     width: 100%;
+    margin-top: 173.5px;
+    h1{
+        font-size: 70px;
+    }
+    h3{
+        font-size: 60px;
+    }
     @media screen and (max-width: $notebook){
-        font-size: 40px;
+        margin-top: 30px;
+        h1{
+            font-size: 40px;
+        }
+        h3{
+            font-size: 40px;
+        }
     }
 }
 
@@ -111,6 +138,10 @@ html, body{
     width: auto;
     font-size: 25px;
     padding: 10px 30px;
+    margin-top: 46px;
+    @media screen and (max-width: $notebook){
+        margin-top: 0;
+    }
 }
 
 .sub-title{
@@ -148,15 +179,39 @@ html, body{
     }
 }
 
+.about-btn{
+    background-color: $blue-darken;
+    width: 125px;
+    font-size: 15px;
+    border-radius: 0;
+    color: $white;
+}
+
 .about-left{
-    margin: 25% auto;
+    margin: 0% auto;
+    margin-top: 354px;
+    margin-left: 215px;
+    @media screen and (max-width: $notebook){
+        width: 100%;
+        margin: 20%;
+    }
 }
 
 .about-img{
-    margin: 10% auto;
+    margin: 0% auto;
+    margin-top: 354px;
+    margin-bottom: 283.5px;
     img {
-        width: 240px;
-        height: 240px;
+        width: 433.5px;
+        height: 433.5px;
+    }
+    @media screen and (max-width: $notebook){
+        margin-top: 104px;
+        margin-bottom: 183.5px;
+        img {
+            width: 240px;
+            height: 240px;
+        }
     }
 }
 
@@ -167,12 +222,30 @@ html, body{
     background-position: center;
     .bg-blur{
         background-color: $white-a;
-        padding-top: 20%;
-        padding-bottom: 20%;
+        padding-top: 301px;
+        padding-bottom: 300px;
+        h3{
+            margin-top: 66.8px;
+            font-size: 28px;
+        }
     }
     img{
-        width: 130px;
-        margin: 30px auto;
+        width: 185px;
+        margin: 0 auto;
+    }
+    @media screen and (max-width: $notebook){
+        img{
+            width: 120px;
+        }
+        .bg-blur{
+            background-color: $white-a;
+            padding-top: 151px;
+            padding-bottom: 150px;
+            h3{
+                margin-top: 66.8px;
+                font-size: 20px;
+            }
+        }
     }
 }
 
@@ -183,33 +256,71 @@ html, body{
     background-position: center;
     .bg-blur{
         background-color: $white-a;
-        padding-top: 20%;
-        padding-bottom: 20%;
+        padding-top: 301px;
+        padding-bottom: 300px;
+        h3{
+            margin-top: 66.8px;
+            font-size: 28px;
+        }
     }
     img{
-        width: 130px;
-        margin: 30px auto;
+        width: 185px;
+        margin: 0 auto;
+    }
+    @media screen and (max-width: $notebook){
+        img{
+            width: 120px;
+        }
+        .bg-blur{
+            background-color: $white-a;
+            padding-top: 151px;
+            padding-bottom: 150px;
+            h3{
+                margin-top: 66.8px;
+                font-size: 20px;
+            }
+        }
     }
 }
 
 .service-button{
     width: 275px;
+    height: 50px;
     border: 1px solid;
     border-color: $blue-darken;
     color: $blue-darken;
+    margin-top: 32px;
+    font-size: 17px;
+    background-color: transparent;
     @media screen and (max-width: $notebook){
         width: 200px;
+        font-size: 15px;
     }
 }
 
+.new-space{
+    height: 35px;
+}
+
 .spacers{
-    height: 50px;
+    margin-top: 39px;
+    margin-bottom: 45px;
 }
 
 .nav-scroll{
     background-color: $white;
+    .navigation{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }
 
 .nav-item-scroll{
     color: $black;
+}
+
+.nav-img-scroll{
+    img{
+        width: 130px;
+    }
 }

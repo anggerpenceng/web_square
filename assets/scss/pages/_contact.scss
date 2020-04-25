@@ -3,7 +3,7 @@
 }
 
 .contact-header-img{
-    background-image: url("../../img/contact-bg.png");
+    background-image: url("../../img/contact_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,9 +51,11 @@
 }
 
 .contact-form{
-    width: 70%;
+    width: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 536px;
+    margin-right: 536px;
     .form-items{
         margin-top: 20px;
         margin-bottom: 20px;
@@ -65,5 +67,9 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 30px;
+    }
+    @media screen and (max-width: $notebook){
+        margin-left: 200px;
+        margin-right: 200px;
     }
 }

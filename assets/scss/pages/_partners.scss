@@ -1,10 +1,14 @@
 .amadeus{
-    width: 170px;
+    width: 260px;
+    @media screen and (max-width: $notebook){
+        width: 200px;
+    }
 }
 
 .amadeus-txt{
     font-size: 25px;
     font-weight: bolder;
+    margin-top: 38px;
     @media screen and (max-width: $notebook){
         font-size: 18px;
     }
@@ -39,7 +43,7 @@
 }
 
 .advis-mt{
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .advis-ul{
@@ -54,5 +58,21 @@
     }
 }
 .advis-img{
-    width: 70%;
+    width: 1546px;
+    @media screen and (max-width: $notebook){
+        width: 70%;
+    }
+}
+
+
+.partner-down{
+    margin-bottom: 100px;
+}
+
+.partnet-m-close{
+    margin-bottom: 10px;
+}
+
+.advis-mb{
+    margin-top: 102px;
 }

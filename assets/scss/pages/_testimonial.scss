@@ -5,6 +5,7 @@
 }
 
 .testimonial-sub-title{
+    margin-top: 46px;
     font-size: 20px;
     font-style: italic;
     color: $white;
@@ -26,4 +27,13 @@
 .testimonial-padding{
     padding-top: 15%;
     padding-bottom: 10%;
+}
+
+.testimonial-line{
+    width: 200px;
+    height: 1px;
+    border: 0.5px solid $grey-darken;
+    margin: 0 auto;
+    margin-top: 39px;
+    margin-bottom: 38px;
 }
