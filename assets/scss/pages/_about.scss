@@ -6,9 +6,16 @@
     padding-top: 20px;
     padding-bottom: 20px;
     width: 1000px;
-    font-size: 35px;
     h3{
+        font-size: 35px;
         margin: 0;
+    }
+    @media screen and (max-width: $notebook){
+        width: 700px;
+        h3{
+            font-size: 25px;
+            margin: 0;
+        }
     }
 }
 
