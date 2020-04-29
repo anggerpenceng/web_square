@@ -2,7 +2,7 @@
     color: $white;
     background-color: $blue-darken;
     margin: auto;
-    margin-top: 147px;
+    margin-top: 98px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 1000px;
@@ -20,22 +20,27 @@
 }
 
 .about-sub-title{
-    font-size: 25px;
+    font-size: 40px;
     color: $blue-darken;
     font-weight: bold;
     @media screen and (max-width: $notebook){
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
 .about-sub-content{
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 50px;
     @media screen and (max-width: $notebook){
-        font-size: 15px;
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 
 .page-title{
     padding-top: 14%;
+}
+
+.about-head-title{
+    padding-bottom: 137px;
 }

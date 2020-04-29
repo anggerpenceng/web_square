@@ -11,9 +11,10 @@
 }
 
 .contact-ico{
-    width: 50px;
+    width: 45px;
+    margin-bottom: 14.5px;
     @media screen and (max-width: $notebook){
-        width: 40px;
+        width: 35px;
     }
 }
 
@@ -72,4 +73,16 @@
         margin-left: 200px;
         margin-right: 200px;
     }
+    h3{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+}
+
+.contact-mt{
+    margin-top: 98px;
+}
+
+.contact-long-mt{
+    margin-top: 137px;
 }
