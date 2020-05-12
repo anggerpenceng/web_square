@@ -45,7 +45,7 @@ html, body{
     margin: 64px 70px;
     display: flex;
     @media screen and (max-width: $notebook){
-        font-size: 14px;
+        font-size: 13px;
         margin: 40px 40px;
     }
 }
@@ -77,12 +77,29 @@ html, body{
     color: $white;
 }
 
+.home-ico{
+    width: 17px;
+}
+
+.home-ico-black{
+    width: 17px;
+}
+
+.home-ico-hide{
+    display: none;
+}
+
+.home-ico-display{
+    display: block;
+}
+
 .navigation > .icon {
-    margin-left: auto;
+    margin-left: 210px;
     margin-right: auto;
     width: 192.5px;
     @media screen and (max-width: $notebook){
         width: 120px;
+        margin-left: 10px;
     }
 }
 
@@ -363,4 +380,16 @@ html, body{
 .bottom-web-space{
     width: 100%;
     height: 100px;
+}
+
+.footer{
+    background-color: $blue-darken;
+    color: $white;
+    p{
+        font-size: 14px;
+        line-height: 16px;
+        margin: 0 130px;
+    }
+    width: 100%;
+    padding: 24px 0;
 }

@@ -45,7 +45,7 @@ html, body {
 }
 @media screen and (max-width: 1440px) {
   .navigation {
-    font-size: 14px;
+    font-size: 13px;
     margin: 40px 40px;
   }
 }
@@ -81,14 +81,31 @@ html, body {
   color: #FFFFFF;
 }
 
+.home-ico {
+  width: 17px;
+}
+
+.home-ico-black {
+  width: 17px;
+}
+
+.home-ico-hide {
+  display: none;
+}
+
+.home-ico-display {
+  display: block;
+}
+
 .navigation > .icon {
-  margin-left: auto;
+  margin-left: 210px;
   margin-right: auto;
   width: 192.5px;
 }
 @media screen and (max-width: 1440px) {
   .navigation > .icon {
     width: 120px;
+    margin-left: 10px;
   }
 }
 
@@ -101,7 +118,7 @@ html, body {
 }
 
 .header-title {
-  background-color: rgba(35, 37, 40, 0.87);
+  background-color: rgba(35, 37, 40, 0.9);
   height: auto;
   padding-top: 17%;
   padding-bottom: 395px;
@@ -387,6 +404,18 @@ html, body {
   height: 100px;
 }
 
+.footer {
+  background-color: #0d446f;
+  color: #FFFFFF;
+  width: 100%;
+  padding: 24px 0;
+}
+.footer p {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 130px;
+}
+
 h1 {
   font-style: normal;
   font-weight: bold;
@@ -491,6 +520,66 @@ span {
 
 .about-head-title {
   padding-bottom: 137px;
+}
+
+.about-pic-info {
+  margin: 33px;
+}
+
+.about-pic-text {
+  font-size: 40px;
+  width: auto;
+  background-color: #0d446f;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  padding: 10px 0;
+}
+
+.about-pic-title-1 {
+  font-size: 35px;
+  width: auto;
+  color: #0d446f;
+  font-weight: bolder;
+}
+
+.about-pic-title-2 {
+  font-size: 30px;
+  width: auto;
+  color: #232528;
+  font-weight: bolder;
+}
+
+.about-pic-title-all {
+  margin-left: 61px;
+  margin-top: 30px;
+}
+
+.about-pic-title-span {
+  font-size: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.about-list {
+  padding-left: 25px;
+}
+
+.about-ul {
+  list-style-image: url(../../img/small-prisma.svg);
+  margin-bottom: 77px;
+}
+.about-ul li {
+  padding-left: 20px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+@media screen and (max-width: 1440px) {
+  .about-ul li {
+    font-size: 19px;
+    padding-left: 18px;
+  }
 }
 
 .navigation-items-invers {

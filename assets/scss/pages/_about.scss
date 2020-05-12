@@ -44,3 +44,61 @@
 .about-head-title{
     padding-bottom: 137px;
 }
+
+.about-pic-info{
+    margin: 33px;
+}
+
+.about-pic-text{
+    font-size: 40px;
+    width: auto;
+    background-color: $blue-darken;
+    color: $white;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+.about-pic-title-1{
+    font-size: 35px;
+    width: auto;
+    color: $blue-darken;
+    font-weight: bolder;
+}
+
+.about-pic-title-2{
+    font-size: 30px;
+    width: auto;
+    color: $black;
+    font-weight: bolder;
+}
+
+.about-pic-title-all{
+    margin-left: 61px;
+    margin-top: 30px;
+}
+
+.about-pic-title-span{
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about-list{
+    padding-left: 25px;
+}
+
+.about-ul{
+    list-style-image: url(../../img/small-prisma.svg);
+    margin-bottom: 77px;
+    li{
+        padding-left: 20px;
+        margin-top: 20px;
+        font-size: 25px;
+        @media screen and (max-width: $notebook){
+            font-size: 19px;
+            padding-left: 18px;
+        }
+    }
+}
