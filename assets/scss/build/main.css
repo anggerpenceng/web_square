@@ -778,6 +778,14 @@ span {
   position: relative;
   margin-top: -32px;
 }
+@media screen and (max-width: 1440px) {
+  .testi-content-head-box {
+    font-size: 20px;
+    padding: 5px;
+    width: 293px;
+    margin-top: -21px;
+  }
+}
 
 .testi-content-head-box-invers {
   background-color: #E1E5E7;
@@ -789,6 +797,14 @@ span {
   margin: 10px auto;
   position: relative;
   margin-top: -32px;
+}
+@media screen and (max-width: 1440px) {
+  .testi-content-head-box-invers {
+    font-size: 20px;
+    padding: 5px;
+    width: 293px;
+    margin-top: -21px;
+  }
 }
 
 .testi-table-content {

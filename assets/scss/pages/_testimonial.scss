@@ -64,6 +64,12 @@
     margin: 10px auto;
     position: relative;
     margin-top: -32px;
+    @media screen and (max-width: $notebook){
+        font-size: 20px;
+        padding: 5px;
+        width: 293px;
+    margin-top: -21px;
+    }
 }
 
 .testi-content-head-box-invers{
@@ -76,6 +82,12 @@
     margin: 10px auto;
     position: relative;
     margin-top: -32px;
+    @media screen and (max-width: $notebook){
+        font-size: 20px;
+        padding: 5px;
+        width: 293px;
+        margin-top: -21px;
+    }
 }
 
 .testi-table-content{
