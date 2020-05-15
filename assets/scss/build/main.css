@@ -753,6 +753,85 @@ span {
   margin-bottom: 38px;
 }
 
+.testi-content-head {
+  width: 90%;
+  margin: 80px auto;
+}
+
+.testi-content-line {
+  width: 100%;
+  height: 1px;
+  background-color: #C2C2C2;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+.testi-content-head-box {
+  background-color: #0d446f;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 393px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px auto;
+  position: relative;
+  margin-top: -32px;
+}
+
+.testi-content-head-box-invers {
+  background-color: #E1E5E7;
+  color: #0d446f;
+  padding: 10px;
+  width: 393px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 10px auto;
+  position: relative;
+  margin-top: -32px;
+}
+
+.testi-table-content {
+  margin: 0px 190px;
+}
+@media screen and (max-width: 1440px) {
+  .testi-table-content {
+    margin: 0px 100px;
+  }
+}
+
+.testi-table tr {
+  line-height: 40px;
+}
+.testi-table tr td {
+  font-size: 20px;
+}
+@media screen and (max-width: 1440px) {
+  .testi-table tr {
+    line-height: 30px;
+  }
+  .testi-table tr td {
+    font-size: 15px;
+  }
+}
+
+.testi-table-left {
+  padding-right: 39px;
+}
+
+.testi-fix-width {
+  width: 260px;
+}
+@media screen and (max-width: 1440px) {
+  .testi-fix-width {
+    width: 220px;
+  }
+}
+
+.testi-added-space {
+  height: 390px;
+}
+
 .amadeus {
   width: 260px;
 }

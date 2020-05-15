@@ -39,3 +39,79 @@
     margin-top: 39px;
     margin-bottom: 38px;
 }
+
+.testi-content-head{
+    width: 90%;
+    margin: 80px auto;
+}
+
+.testi-content-line{
+    width: 100%;
+    height: 1px;
+    background-color: $grey;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+}
+
+.testi-content-head-box{
+    background-color: $blue-darken;
+    color: $white;
+    padding: 10px;
+    width: 393px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px auto;
+    position: relative;
+    margin-top: -32px;
+}
+
+.testi-content-head-box-invers{
+    background-color: $grey-light;
+    color: $blue-darken;
+    padding: 10px;
+    width: 393px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px auto;
+    position: relative;
+    margin-top: -32px;
+}
+
+.testi-table-content{
+    margin: 0px 190px;
+    @media screen and (max-width: $notebook){
+        margin: 0px 100px;
+    }
+}
+
+.testi-table{
+    tr{
+        line-height: 40px;
+        td{
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width: $notebook){
+        tr{
+            line-height: 30px;
+            td{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.testi-table-left{
+    padding-right: 39px;
+}
+
+.testi-fix-width{
+    width: 260px;
+    @media screen and (max-width: $notebook){
+        width: 220px;
+    }
+}
+.testi-added-space{
+    height: 390px;
+}
