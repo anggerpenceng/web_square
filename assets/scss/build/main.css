@@ -183,7 +183,7 @@ html, body {
   margin-left: auto;
   color: #FFFFFF;
   text-align: center;
-  width: 1202px;
+  width: 1280px;
   line-height: 50px;
   margin-top: 62px;
 }
@@ -193,9 +193,11 @@ html, body {
 @media screen and (max-width: 1440px) {
   .sub-title {
     width: 970px;
+    margin-top: 20px;
   }
   .sub-title p {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 30px;
   }
 }
 
@@ -1108,6 +1110,92 @@ span {
 
 .contact-long-mt {
   margin-top: 137px;
+}
+
+.panel-box {
+  width: fit-content;
+  background-color: #0d446f;
+  color: #FFFFFF;
+  padding: 18px 79px;
+  margin: auto;
+  margin-top: -40px;
+}
+.panel-box h3 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.panel-contain {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 45px;
+}
+
+.panel-all {
+  margin-top: 0;
+}
+
+.panel-span {
+  font-size: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.panel-title-1 {
+  font-size: 35px;
+  width: auto;
+  color: #0d446f;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1440px) {
+  .panel-title-1 {
+    font-size: 25px;
+  }
+}
+
+.panel-title-2 {
+  font-size: 25px;
+  width: auto;
+  color: #232528;
+  font-weight: bolder;
+}
+@media screen and (max-width: 1440px) {
+  .panel-title-2 {
+    font-size: 15px;
+  }
+}
+
+.panel-img {
+  width: auto;
+  margin-right: 65px;
+}
+@media screen and (max-width: 1440px) {
+  .panel-img {
+    width: 20%;
+    margin-right: 15px;
+  }
+  .panel-img img {
+    width: 100%;
+  }
+}
+
+.panel-text {
+  width: 69%;
+}
+.panel-text p {
+  margin-top: 38px;
+  font-size: 20px;
+  line-height: 23px;
+}
+@media screen and (max-width: 1440px) {
+  .panel-text {
+    width: 70%;
+  }
+  .panel-text p {
+    margin-top: 18px;
+    font-size: 15px;
+    line-height: 23px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

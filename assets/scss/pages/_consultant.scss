@@ -1,0 +1,77 @@
+.panel-box{
+    width: fit-content;
+    background-color: $blue-darken;
+    color: $white;
+    padding: 18px 79px;
+    margin: auto;
+    margin-top: -40px;
+    h3{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+}
+
+.panel-contain{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 45px;
+}
+
+.panel-all{
+    margin-top: 0;
+}
+
+.panel-span{
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.panel-title-1{
+    font-size: 35px;
+    width: auto;
+    color: $blue-darken;
+    font-weight: bolder;
+    @media screen and (max-width: $notebook){
+        font-size: 25px;
+    }
+}
+
+.panel-title-2{
+    font-size: 25px;
+    width: auto;
+    color: $black;
+    font-weight: bolder;
+    @media screen and (max-width: $notebook){
+        font-size: 15px;
+    }
+}
+
+.panel-img{
+    width: auto;
+    margin-right:65px;
+    @media screen and (max-width: $notebook){
+        width: 20%;
+        margin-right:15px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.panel-text{
+    width: 69%;
+    p{
+        margin-top: 38px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    @media screen and (max-width: $notebook){
+        width: 70%;
+        p{
+            margin-top: 18px;
+            font-size: 15px;
+            line-height: 23px;
+        }
+    }
+}

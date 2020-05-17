@@ -171,7 +171,7 @@ html, body{
     margin-left: auto;
     color: $white;
     text-align: center;
-    width: 1202px;
+    width: 1280px;
     line-height: 50px;
     margin-top: 62px;
     p{
@@ -180,8 +180,10 @@ html, body{
     @media screen and (max-width: $notebook){
         width: 970px;
         p{
-            font-size: 20px;;
+            font-size: 18px;
+            line-height: 30px;
         }
+        margin-top: 20px;
     }
 }
 
