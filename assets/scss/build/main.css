@@ -105,19 +105,38 @@ html, body {
 }
 
 .navigation > .icon {
-  margin-left: 14%;
+  margin-left: auto;
   margin-right: auto;
   width: 192.5px;
+  height: 192.5px;
 }
 @media screen and (max-width: 1440px) {
   .navigation > .icon {
     width: 120px;
-    margin-left: 7%;
+    height: 120px;
   }
 }
 @media screen and (max-width: 1366px) {
   .navigation > .icon {
     margin-left: 6%;
+  }
+}
+
+.nav-ico-img {
+  position: absolute;
+  align-items: center;
+  width: 192.5px;
+  left: 45.5%;
+}
+@media screen and (max-width: 1440px) {
+  .nav-ico-img {
+    width: 120px;
+    left: 46.2%;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .nav-ico-img {
+    left: 46%;
   }
 }
 
@@ -404,10 +423,17 @@ html, body {
   color: #232528;
 }
 
+.nav-img-scroll {
+  height: 100px !important;
+}
 .nav-img-scroll img {
   width: 100px;
+  left: 47%;
 }
 @media screen and (max-width: 1440px) {
+  .nav-img-scroll {
+    height: 80px !important;
+  }
   .nav-img-scroll img {
     width: 80px;
   }
@@ -425,16 +451,30 @@ html, body {
   padding: 24px 0;
 }
 .footer p {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 18px;
   margin: 0 130px;
 }
 @media screen and (max-width: 1440px) {
   .footer p {
-    font-size: 10px;
+    font-size: 14px;
     padding: 0px 0;
-    line-height: 11px;
+    line-height: 16px;
   }
+}
+
+.up-arrows {
+  position: fixed;
+  bottom: 52px;
+  right: 59px;
+  width: 35px;
+  height: 35px;
+  transition: all 0.4s;
+  display: none;
+}
+
+.up-arrows-active {
+  display: block;
 }
 
 .active-menu {

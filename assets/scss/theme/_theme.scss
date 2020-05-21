@@ -99,15 +99,30 @@ html, body{
 }
 
 .navigation > .icon {
-    margin-left: 14%;
+    margin-left: auto;
     margin-right: auto;
     width: 192.5px;
+    height: 192.5px;
     @media screen and (max-width: $notebook){
         width: 120px;
-        margin-left: 7%;
+        height: 120px;
     }
     @media screen and (max-width: $notebook-s){
         margin-left: 6%;
+    }
+}
+
+.nav-ico-img{
+    position: absolute;
+    align-items: center;
+    width: 192.5px;
+    left: 45.5%;
+    @media screen and (max-width: $notebook){
+        width: 120px;
+        left: 46.2%;
+    }
+    @media screen and (max-width: $notebook-s){
+        left: 46%;
     }
 }
 
@@ -377,10 +392,13 @@ html, body{
 }
 
 .nav-img-scroll{
+    height: 100px !important;
     img{
         width: 100px;
+        left: 47%;
     }
     @media screen and (max-width: $notebook){
+        height: 80px !important;
         img{
             width: 80px;
         }
@@ -396,19 +414,33 @@ html, body{
     background-color: $blue-darken;
     color: $white;
     p{
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 16px;
+        line-height: 18px;
         margin: 0 130px;
     }
     width: 100%;
     padding: 24px 0;
     @media screen and (max-width: $notebook){
         p{
-            font-size: 10px;
+            font-size: 14px;
             padding: 0px 0;
-            line-height: 11px;
+            line-height: 16px;
         }
     }
+}
+
+.up-arrows{
+    position: fixed;
+    bottom: 52px;
+    right: 59px;
+    width: 35px;
+    height: 35px;
+    transition: all 0.4s;
+    display: none;
+}
+
+.up-arrows-active{
+    display: block;
 }
 
 .active-menu{
