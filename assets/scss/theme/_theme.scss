@@ -48,6 +48,9 @@ html, body{
         font-size: 13px;
         margin: 40px 40px;
     }
+    @media screen and (max-width: $notebook-s){
+        margin: 40px 10px;
+    }
 }
 
 .navigation-left{
@@ -55,6 +58,8 @@ html, body{
     margin-bottom: auto;
     margin-left: 40px;
     margin-right: 65px;
+    display: flex;
+    flex-wrap: wrap;
     @media screen and (max-width: $notebook){
         margin-top: auto;
         margin-bottom: auto;
@@ -94,12 +99,15 @@ html, body{
 }
 
 .navigation > .icon {
-    margin-left: 200px;
+    margin-left: 14%;
     margin-right: auto;
     width: 192.5px;
     @media screen and (max-width: $notebook){
         width: 120px;
-        margin-left: 10px;
+        margin-left: 7%;
+    }
+    @media screen and (max-width: $notebook-s){
+        margin-left: 6%;
     }
 }
 

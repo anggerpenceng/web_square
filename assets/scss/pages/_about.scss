@@ -58,6 +58,10 @@
     font-weight: bolder;
     font-style: italic;
     padding: 10px 0;
+    font-family: $cambria, 'sans-serif';
+    @media screen and (max-width: $notebook){
+        font-size: 30px;
+    }
 }
 
 .about-pic-title-1{
@@ -93,6 +97,7 @@
     list-style-image: url(../../img/small-prisma.svg);
     margin-bottom: 77px;
     li{
+        text-align: justify;
         padding-left: 20px;
         margin-top: 20px;
         font-size: 25px;
