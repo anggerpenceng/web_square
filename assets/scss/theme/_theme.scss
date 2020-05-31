@@ -247,6 +247,9 @@ html, body{
     @media screen and (max-width: $notebook){
         font-size: 15px;
     }
+    @media screen and (max-width: $mobile){
+        line-height: 20px;
+    }
 }
 
 .about-btn{

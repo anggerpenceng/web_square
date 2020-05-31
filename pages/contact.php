@@ -53,13 +53,12 @@
     </div>
 
     <div class="container-fluid contact-header-img">
-        <div class="row header-title page-title">
+        <div class="row header-title page-title contact-head-m">
             <div class="title">
                 <h3>CONTACT US</h3>
             </div>
             <div class="col-12 text-center contact-mt">
-            <!-- https://maps.google.com/maps?q=10%20Marina%20Blvd%2C%20Tower%202%2C%20Level%2039%2C%20Singapore%20018983&t=&z=13&ie=UTF8&iwloc=&output=embed -->
-                <iframe class="contact-widthmaps" height="400" id="gmap_canvas" src="#" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe class="contact-widthmaps" id="gmap_canvas" src="https://maps.google.com/maps?q=10%20Marina%20Blvd%2C%20Tower%202%2C%20Level%2039%2C%20Singapore%20018983&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
             <div class="col-12 text-center contact-space contact-long-mt">
                 <img src="../assets/img/send.svg" alt="plane" class="contact-ico">
@@ -86,21 +85,19 @@
     <div class="container-fluid contact-form">
         <h3 class="text-center">Send us a message</h3>
         <div class="row">
-            <form method="POST">
-                <div class="col-lg-6 form-items">
-                    <input type="text" class="form-control" placeholder="your name" name="name">
-                </div>
-                <div class="col-lg-6 form-items">
-                    <input type="text" class="form-control" placeholder="email address" name="email">
-                </div>
-                <div class="col-12 form-items">
-                    <input type="text" class="form-control" placeholder="subject" name="subject">
-                </div>
-                <div class="col-12 form-items">
-                    <textarea cols="30" rows="10" class="form-control" placeholder="message" name="text"></textarea>
-                </div>
-                <input class="btn button-submit" type="submit" name="send" value="send message">
-            </form>
+            <div class="col-lg-6 form-items">
+                <input type="text" class="form-control" placeholder="your name">
+            </div>
+            <div class="col-lg-6 form-items">
+                <input type="text" class="form-control" placeholder="email address">
+            </div>
+            <div class="col-12 form-items">
+                <input type="text" class="form-control" placeholder="subject">
+            </div>
+            <div class="col-12 form-items">
+                <textarea cols="30" rows="10" class="form-control" placeholder="message"></textarea>
+            </div>
+            <input class="btn button-submit" type="submit" name="send" value="send message">
         </div>
     </div>
 
