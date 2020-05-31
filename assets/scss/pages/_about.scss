@@ -34,6 +34,9 @@
     @media screen and (max-width: $notebook){
         font-size: 30px;
     }
+    @media screen and (max-width: $mobile){
+        font-size: 22px;
+    }
 }
 
 .about-sub-content{
@@ -42,6 +45,9 @@
     @media screen and (max-width: $notebook){
         font-size: 20px;
         line-height: 30px;
+    }
+    @media screen and (max-width: $mobile){
+        font-size: 18px;
     }
 }
 
@@ -70,6 +76,9 @@
     @media screen and (max-width: $notebook){
         font-size: 30px;
     }
+    @media screen and (max-width: $mobile){
+        font-size: 20px;
+    }
 }
 
 .about-pic-title-1{
@@ -77,6 +86,17 @@
     width: auto;
     color: $blue-darken;
     font-weight: bolder;
+    @media screen and (max-width: $mobile){
+        font-size: 25px;
+    }
+}
+
+.about-pic-title-br{
+    display: none;
+    @media screen and (max-width: $mobile){
+        display: block;
+        line-height: 5px;
+    }
 }
 
 .about-pic-title-2{
@@ -84,6 +104,9 @@
     width: auto;
     color: $black;
     font-weight: bolder;
+    @media screen and (max-width: $mobile){
+        font-size: 20px;
+    }
 }
 
 .about-pic-title-all{
@@ -99,6 +122,9 @@
     font-size: 35px;
     margin-left: 10px;
     margin-right: 10px;
+    @media screen and (max-width: $mobile){
+        display: none;
+    }
 }
 
 .about-list{

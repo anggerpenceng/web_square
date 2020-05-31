@@ -706,6 +706,11 @@ span {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 480px) {
+  .about-sub-title {
+    font-size: 22px;
+  }
+}
 
 .about-sub-content {
   font-size: 30px;
@@ -715,6 +720,11 @@ span {
   .about-sub-content {
     font-size: 20px;
     line-height: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .about-sub-content {
+    font-size: 18px;
   }
 }
 
@@ -746,6 +756,11 @@ span {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 480px) {
+  .about-pic-text {
+    font-size: 20px;
+  }
+}
 
 .about-pic-title-1 {
   font-size: 35px;
@@ -753,12 +768,32 @@ span {
   color: #0d446f;
   font-weight: bolder;
 }
+@media screen and (max-width: 480px) {
+  .about-pic-title-1 {
+    font-size: 25px;
+  }
+}
+
+.about-pic-title-br {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .about-pic-title-br {
+    display: block;
+    line-height: 5px;
+  }
+}
 
 .about-pic-title-2 {
   font-size: 30px;
   width: auto;
   color: #232528;
   font-weight: bolder;
+}
+@media screen and (max-width: 480px) {
+  .about-pic-title-2 {
+    font-size: 20px;
+  }
 }
 
 .about-pic-title-all {
@@ -776,6 +811,11 @@ span {
   font-size: 35px;
   margin-left: 10px;
   margin-right: 10px;
+}
+@media screen and (max-width: 480px) {
+  .about-pic-title-span {
+    display: none;
+  }
 }
 
 .about-list {
@@ -1422,11 +1462,31 @@ span {
 .panel-all {
   margin-top: 0;
 }
+@media screen and (max-width: 480px) {
+  .panel-all {
+    margin-top: 10px;
+  }
+}
 
 .panel-span {
   font-size: 35px;
   margin-left: 10px;
   margin-right: 10px;
+}
+@media screen and (max-width: 480px) {
+  .panel-span {
+    display: none;
+  }
+}
+
+.panel-span-br {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .panel-span-br {
+    display: block;
+    line-height: 0px;
+  }
 }
 
 .panel-title-1 {

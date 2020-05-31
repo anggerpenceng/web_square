@@ -19,12 +19,26 @@
 
 .panel-all{
     margin-top: 0;
+    @media screen and (max-width: $mobile){
+        margin-top: 10px;
+    }
 }
 
 .panel-span{
     font-size: 35px;
     margin-left: 10px;
     margin-right: 10px;
+    @media screen and (max-width: $mobile){
+        display: none;
+    }
+}
+
+.panel-span-br{
+    display: none;
+    @media screen and (max-width: $mobile){
+        display: block;
+        line-height: 0px;
+    }
 }
 
 .panel-title-1{
