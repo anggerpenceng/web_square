@@ -93,7 +93,12 @@
 
 .contact-widthmaps{
     width: 65%;
+    height: 500px;
     @media screen and (max-width: $netbook){
         width: 95%;
     }
+}
+
+.contact-head-m{
+    padding-bottom: 50px !important;
 }
