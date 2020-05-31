@@ -518,12 +518,24 @@ html, body {
   background-color: #FFFFFF;
   margin-top: 10px;
 }
+@media screen and (max-width: 480px) {
+  .burger-menu {
+    margin-top: 8px;
+    height: 3px;
+  }
+}
 
 .burger-menu-invers {
   width: 100%;
   height: 5px;
   background-color: #232528;
   margin-top: 10px;
+}
+@media screen and (max-width: 480px) {
+  .burger-menu-invers {
+    margin-top: 8px;
+    height: 3px;
+  }
 }
 
 .burger-scroll-invers {
@@ -541,6 +553,12 @@ html, body {
 @media screen and (max-width: 1024px) {
   .burger-menu-container {
     display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .burger-menu-container {
+    width: 30px;
+    left: 20px;
   }
 }
 
@@ -572,12 +590,22 @@ html, body {
   width: 30px;
   height: auto;
 }
+@media screen and (max-width: 480px) {
+  .close-side {
+    width: 20px;
+  }
+}
 
 .side-list-menu {
   width: auto;
   margin-left: 20px;
   font-size: 30px;
   color: #232528;
+}
+@media screen and (max-width: 480px) {
+  .side-list-menu {
+    font-size: 20px;
+  }
 }
 
 h1 {
@@ -921,6 +949,11 @@ span {
     font-size: 17px;
   }
 }
+@media screen and (max-width: 480px) {
+  .testimonial-sub-title {
+    line-height: 30px;
+  }
+}
 
 .testimonial-simple-text {
   margin-top: 15px;
@@ -930,6 +963,11 @@ span {
 @media screen and (max-width: 1440px) {
   .testimonial-simple-text {
     font-size: 17px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .testimonial-simple-text {
+    line-height: 30px;
   }
 }
 
@@ -1033,6 +1071,11 @@ span {
 .testi-table-left {
   padding-right: 39px;
 }
+@media screen and (max-width: 480px) {
+  .testi-table-left {
+    padding-right: 10px;
+  }
+}
 
 .testi-fix-width {
   width: 260px;
@@ -1040,6 +1083,11 @@ span {
 @media screen and (max-width: 1440px) {
   .testi-fix-width {
     width: 220px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .testi-fix-width {
+    width: 120px;
   }
 }
 
