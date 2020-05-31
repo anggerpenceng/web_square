@@ -8,6 +8,10 @@
     @media screen and (max-width: $notebook){
         height: 300px;
     }
+
+    @media screen and (max-width: $netbook){
+        height: 150px;
+    }
 }
 .navigation-fixed-invers{
     position: absolute;
@@ -17,6 +21,9 @@
     overflow: hidden;
     width: 100%;
     transition: all 0.4s;
+    @media screen and (max-width: $netbook){
+        display: none;
+    }
 }
 
 .services-body{
@@ -102,4 +109,20 @@
 .services-m{
     margin-top: 65px;
     margin-bottom: 106.5px;
+}
+
+.service-text-left{
+    text-align: left;
+    @media screen and (max-width: $tablet){
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+.service-text-right{
+    text-align: right;
+    @media screen and (max-width: $tablet){
+        text-align: center;
+        margin: 20px 0;
+    }
 }

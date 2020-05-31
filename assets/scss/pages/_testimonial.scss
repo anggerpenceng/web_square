@@ -95,6 +95,10 @@
     @media screen and (max-width: $notebook){
         margin: 0px 100px;
     }
+
+    @media screen and (max-width: $netbook){
+        margin: 0px 5px;
+    }
 }
 
 .testi-table{

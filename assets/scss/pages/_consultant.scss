@@ -57,6 +57,14 @@
             width: 100%;
         }
     }
+
+    @media screen and (max-width: $netbook){
+        width: 40%;
+        margin-right:15px;
+        img{
+            width: 100%;
+        }
+    }
 }
 
 .panel-text{
@@ -73,5 +81,9 @@
             font-size: 15px;
             line-height: 23px;
         }
+    }
+
+    @media screen and (max-width: $netbook){
+        width: 100%;
     }
 }

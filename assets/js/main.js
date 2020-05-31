@@ -6,6 +6,8 @@ $(function () {
       var $homeIco = $(".home-ico");
       var $homeIcoBlack = $("#home-black");
       var $upArrows = $(".up-arrows");
+      var $burgerMenu = $(".burger-menu");
+      var $headMenu = $(".header-img");
 
 
       $nav.toggleClass('nav-scroll', $(this).scrollTop() > $nav.height());
@@ -13,6 +15,7 @@ $(function () {
       $navIco.toggleClass('nav-img-scroll', $(this).scrollTop() > $nav.height());
       $homeIco.toggleClass('home-ico-hide', $(this).scrollTop() > $nav.height());
       $upArrows.toggleClass('up-arrows-active', $(this).scrollTop() > $nav.height());
+      $burgerMenu.toggleClass('burger-scroll-invers', $(this).scrollTop() > $headMenu.height());
 
       if ($(this).scrollTop() > $nav.height())
       {
@@ -47,4 +50,16 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+  $("#close-menu").on('click' , function(event){
+    $(".side-menu").css({
+      "display" : "none"
+    })
+  })
+
+  $("#burger").on('click' , function(event){
+    $(".side-menu").css({
+      "display" : "block"
+    })
+  })
 });
