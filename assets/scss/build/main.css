@@ -194,6 +194,11 @@ html, body {
     font-size: 40px;
   }
 }
+@media screen and (max-width: 480px) {
+  .title h1 {
+    line-height: 50px;
+  }
+}
 
 .sub-title-bg {
   margin-right: auto;
@@ -607,6 +612,16 @@ html, body {
 @media screen and (max-width: 480px) {
   .side-list-menu {
     font-size: 20px;
+  }
+}
+
+.title-br-span {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .title-br-span {
+    display: block;
+    line-height: 0px;
   }
 }
 

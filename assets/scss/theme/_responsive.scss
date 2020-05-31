@@ -81,3 +81,11 @@
         font-size: 20px;
     }
 }
+
+.title-br-span{
+    display: none;
+    @media screen and (max-width: $mobile){
+        display: block;
+        line-height: 0px;
+    }
+}

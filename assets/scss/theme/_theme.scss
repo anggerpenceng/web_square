@@ -173,6 +173,11 @@ html, body{
             font-size: 40px;
         }
     }
+    @media screen and (max-width: $mobile){
+        h1{
+            line-height: 50px;
+        }
+    }
 }
 
 .sub-title-bg{
