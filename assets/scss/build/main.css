@@ -95,10 +95,12 @@ html, body {
 
 .home-ico {
   width: 17px;
+  margin-top: -5px;
 }
 
 .home-ico-black {
   width: 17px;
+  margin-top: -5px;
 }
 
 .home-ico-hide {
