@@ -17,6 +17,14 @@
             margin: 0;
         }
     }
+    @media screen and (max-width: $netbook){
+        width: 100%;
+        margin-top: 20px;
+        h3{
+            font-size: 23px;
+            margin: 0;
+        }
+    }
 }
 
 .about-sub-title{
@@ -81,6 +89,10 @@
 .about-pic-title-all{
     margin-left: 61px;
     margin-top: 30px;
+    @media screen and (max-width: $netbook){
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 }
 
 .about-pic-title-span{
@@ -91,6 +103,9 @@
 
 .about-list{
     padding-left: 25px;
+    @media screen and (max-width: $netbook){
+        padding-left: 0px;
+    }
 }
 
 .about-ul{

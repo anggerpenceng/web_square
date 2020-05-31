@@ -432,15 +432,15 @@ html, body{
     background-color: $blue-darken;
     color: $white;
     p{
-        font-size: 16px;
+        font-size: 13px;
         line-height: 18px;
         margin: 0 130px;
     }
     width: 100%;
-    padding: 24px 0;
+    padding: 5px 0;
     @media screen and (max-width: $notebook){
         p{
-            font-size: 14px;
+            font-size: 9px;
             padding: 0px 0;
             line-height: 16px;
         }
