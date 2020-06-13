@@ -62,8 +62,11 @@
 }
 
 .panel-img{
-    width: auto;
+    width: 20%;
     margin-right:65px;
+    img{
+        width: 100%;
+    }
     @media screen and (max-width: $notebook){
         width: 20%;
         margin-right:15px;
