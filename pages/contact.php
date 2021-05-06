@@ -22,7 +22,7 @@
     <div class="side-menu">
         <img src="../assets/img/close.svg" class="close-side" id="close-menu">
         <a href="../index.html"><div class="side-list-menu">HOME</div></a>
-        <a href="about.html"><div class="side-list-menu">ABOUT US</div></a>
+        <a href="../about.html"><div class="side-list-menu">ABOUT US</div></a>
         <a href="service.html"><div class="side-list-menu">SERVICES</div></a>
         <a href="testimonial.html"><div class="side-list-menu">PAST TRANSACTIONS/ TESTIMONIALS</div></a>
         <a href="partners.html"><div class="side-list-menu">PARTNERS</div></a>
@@ -37,7 +37,7 @@
                     <img src="../assets/img/home_ico.png" alt="" class="home-ico">
                     <img src="../assets/img/home-ico-black.png" alt="" id="home-black" class="home-ico-black home-ico-hide">
                 </a>
-                <a href="about.html" class="navigation-items in-navs">ABOUT US</a>
+                <a href="../about.html" class="navigation-items in-navs">ABOUT US</a>
                 <a href="service.html" class="navigation-items in-navs">SERVICES</a>
                 <a href="testimonial.html" class="navigation-items in-navs">PAST TRANSACTIONS/<br>TESTIMONIALS</a>
             </div>
