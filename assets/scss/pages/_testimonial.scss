@@ -1,16 +1,20 @@
 .testimonial-page{
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .testimonial-sub-title{
+    background-color: rgba(6, 99, 165, 0.5);
+    border: 2px solid rgba(104, 106, 108, 0.5);
+    padding: 30px;
     margin-top: 89px;
+    margin-bottom: 0px;
     font-size: 25px;
     font-style: italic;
     color: $white;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 30px;
     @media screen and (max-width: $notebook){
         margin-top: 39px;
         font-size: 17px;
@@ -21,9 +25,14 @@
 }
 
 .testimonial-simple-text{
-    margin-top: 15px;
+    background-color: rgba(164, 164, 164, 0.5);
+    margin-top: 0px;
     font-size: 25px;
     color: $white;
+    line-height: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-weight: bold;
     @media screen and (max-width: $notebook){
         font-size: 17px;
     }

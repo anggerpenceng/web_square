@@ -59,7 +59,7 @@
             </div>
             <div class="col-12 text-center contact-mt">
             <!-- https://maps.google.com/maps?q=10%20Marina%20Blvd%2C%20Tower%202%2C%20Level%2039%2C%20Singapore%20018983&t=&z=13&ie=UTF8&iwloc=&output=embed -->
-                <iframe class="contact-widthmaps" id="gmap_canvas" src="https://www.google.com" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe class="contact-widthmaps" id="gmap_canvas" src="https://maps.google.com/maps?q=10%20Marina%20Blvd%2C%20Tower%202%2C%20Level%2039%2C%20Singapore%20018983&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
             <div class="col-12 text-center contact-space contact-long-mt">
                 <img src="../assets/img/send.svg" alt="plane" class="contact-ico">
