@@ -129,4 +129,8 @@
 
 .service-text-center{
     text-align: center;
+    @media screen and (max-width: $tablet){
+        width: 768px;
+        margin: 20px 0;
+    }
 }
