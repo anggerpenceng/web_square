@@ -65,7 +65,7 @@
                 <img src="../assets/img/send.svg" alt="plane" class="contact-ico">
                 <h3>Contact Details</h3>
                 <p>Email. info@square-associates.com <br>
-                    Phone. +65 6222 3209  |  +65 6228 0106</p>
+                    Phone. +65-68185768</p>
             </div>
             <div class="contact-liner"></div>
             <div class="col-12 text-center contact-space">
